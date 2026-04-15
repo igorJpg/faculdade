@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-import livrospack.Livro;
+import livrospack.Livro; // pacote importado do livros pack
 
 class Biblioteca {
 
