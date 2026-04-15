@@ -37,15 +37,19 @@ public class bancoincompleto {
         System.out.println("o seu saldo e: " + exibir);
         System.out.println("(1)-deseja depositar ou (2)-sacar");
         int opcao = input.nextInt();
-       if  (opcao == 1) {
+       switch (opcao) {
+           case 1:
            System.out.println("quanto deseja depositar?");
            int deposita = input.nextInt();
            System.out.println(deposita + " depositado com sucesso");
            System.out.println(saldo + deposita);
-       } else if (opcao == 2) {
+           break;
+            case 2:
            System.out.println("quanto deseja sacar?");
            int sacar = input.nextInt();
            System.out.println(saldo + sacar);
+           break;
+
        }
 
     }
