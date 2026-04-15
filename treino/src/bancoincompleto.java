@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class banco {
+public class bancoincompleto {
 
     public class Contabancaria {
         String titular;
