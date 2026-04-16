@@ -21,11 +21,11 @@ public class repeticaotreinoi {
        contador1.add("domingo");
 
         Scanner ler = new Scanner(System.in);
-        System.out.println("qual foi o seu valor gasto na semana? ");
+        System.out.println("qual é seu orçamento da semana? ");
         int gastoSeman = ler.nextInt();
 
         do {
-            System.out.println("Qual foi o valor gasto na " + contador1.get(dia) + " ?");
+            System.out.println("Quanto foi gasto na " + contador1.get(dia) + " ?");
             gastoDia = ler.nextInt();
             total += gastoDia;
             dia++;
@@ -35,7 +35,7 @@ public class repeticaotreinoi {
         System.out.println("O valor de seu orcamento da semana era de " + gastoSeman);
         System.out.println("pela semanas foi gasto: " + total);
 
-        if  (total >= gastoSeman) {
+        if  (total > gastoSeman && total == gastoSeman) {
             System.out.println("voce passou do seu orcamento");
         } else  {
             System.out.println("voce esta dentro do seu orcamento");
